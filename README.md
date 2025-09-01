@@ -27,30 +27,34 @@ This repository contains a precompiled **XMRig VRL binary for ARM devices** (And
 
 ---
 
+```
+git clone https://github.com/nheoshikuyanhemo/xmrig-virel-arm-build.git
+```
+
 ## Usage
 
 1. Make the binary executable:
-```bash
+```
 chmod +x xmrig
-
+```
 
 ### Run the miner:
 
-```bash
-./xmrig -a randomvirel --url <POOL_ADDRESS:PORT> --user <YOUR_WALLET_ADDRESS.WORKER_NAME> --tls
-
+```
+./xmrig -a randomvirel --url <POOL_ADDRESS:PORT> --tls --user <YOUR_WALLET_ADDRESS.WORKER_NAME>
+```
 
 ### example
 
-```bash
-./xmrig -a randomvirel --url asia.rplant.xyz:7155 --user v16jfoyeh9q6iuzzlim6umncx7ljgbc6ep8sngi.Eixa --tls
-
+```
+./xmrig -a randomvirel --url asia.rplant.xyz:17155 --tls --user v16jfoyeh9q6iuzzlim6umncx7ljgbc6ep8sngi.Eixa
+```
 
 
 ## If you find this build helpful, you can donate Virel (VRL) to support development:
-
+```
 v16jfoyeh9q6iuzzlim6umncx7ljgbc6ep8sngi
-
+```
 
 ### License
 
