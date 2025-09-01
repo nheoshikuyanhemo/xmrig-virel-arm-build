@@ -26,7 +26,7 @@ This repository contains a precompiled **XMRig VRL binary for ARM devices** (And
 > Huge Pages are **not supported** on most Android/VM kernels. The miner will run using normal memory.
 
 ---
-## Ubuntu
+# Ubuntu
 ```
 pkg update -y && pkg upgrade -y
 pkg install proot-distro -y
@@ -43,8 +43,10 @@ proot-distro login ubuntu-22.04
 ```
 git clone https://github.com/nheoshikuyanhemo/xmrig-virel-arm-build.git
 ```
-
-## Usage
+```
+cd xmrig-virel-arm-build
+```
+# Usage
 
 1. Make the binary executable:
 ```
